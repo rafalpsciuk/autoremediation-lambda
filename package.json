@@ -1,0 +1,23 @@
+{
+  "name": "autoremediation",
+  "version": "1.0.0",
+  "description": "Lambda functions for autoremediation scenarios",
+  "author": "Rafal Pscouk <rafal.psciuk@dynatrace.com>",
+  "repository": "https://github.com/rafalpsciuk/autoremediation-lambda",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test ./node_modules/.bin/mocha --reporter spec ./test/**/*.spec.js"
+  },
+  "dependencies": {
+    "superagent": "^3.6.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.115.0",
+    "chai": "^4.1.2",
+    "cross-env": "^5.1.0",
+    "lambda-local": "^1.4.3",
+    "lambda-tester": "^3.1.0",
+    "mocha": "^4.0.1",
+    "nock": "9.0.22",
+    "rewire": "^2.5.2"
+  }
+}

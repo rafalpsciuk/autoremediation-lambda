@@ -1,0 +1,23 @@
+module.exports = { 
+"State": "OPEN",
+"ProblemID": "324",
+"PID": "1724771582765390602",
+"ProblemTitle": "2 application problems",
+"Tags": "CouchDB, autoremediation",
+"ImpactedEntity": "2 application problems for Application www.easytravel.com",
+"ImpactedEntities":
+[ { "type": "APPLICATION",
+"name": "www.easytravel.com",
+"entity": "APPLICATION-08EBD5603755FA87" },
+{ "type": "PROCESS_GROUP_INSTANCE",
+"name": "CouchDB_ET",
+"entity": "PROCESS_GROUP_INSTANCE-769FDDE57854E59C" },
+{ "type": "SERVICE",
+"name": "CouchDB_ET on port 5984",
+"entity": "SERVICE-647148447FC4DDD2" },
+{ "type": "SERVICE",
+"name": "easyTravel Customer Frontend",
+"entity": "SERVICE-9F3CCA917EA0080A" },
+{ "type": "SERVICE",
+"name": "EasyTravelWebserver:18079",
+"entity": "SERVICE-7A68C3A53D9236A5" } ] }
